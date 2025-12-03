@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Example</title>
+    <link rel="stylesheet" href="position.css"/>
+    <title = ref = "stylesheet" href = "position.css" >
+    <head>
+    <body>
+    
+
+    <div class ="container">
+
+
+    <style>
+        .container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            border: 2px solid #000;
+            margin: 20px;
+        }
+
+        .absolute-box {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: rgba(255, 0, 0, 0.5);
+        }
+
+        .relative-box {
+            position: relative;
+            top: 50px;
+            left: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: rgba(0, 0, 255, 0.5);
+        }
+
+        .fixed-box {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: rgba(0, 255, 0, 0.5);
+        }
